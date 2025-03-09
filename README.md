@@ -73,6 +73,9 @@ Scans for syscall hooks in ntdll.dll to detect potential tampering by security s
 
 Generates and executes a reverse shell in memory using C#. It establishes a connection to an attacker's machine, allowing remote command execution. The results help test remote access techniques and assess security defenses.
 
+# Note
+Tested and work in windows 10,11,server 2019 - PowerShell Version 5.1 and 7
+
 # License
 This project is released under the MIT License - see the https://github.com/yehia-mamdouh/ZeroProbe/blob/main/LICENSE file for more details.
 
