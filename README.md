@@ -6,6 +6,11 @@ ZeroProbe is an advanced enumeration and analysis framework designed for exploit
 # Overview
 ZeroProbe is an exploit development and enumeration framework designed for security researchers, exploit developers, penetration testers, and red teamers. It provides a set of powerful modules to analyze system vulnerabilities, detect privilege escalation paths, map kernel exploits, identify weak file permissions, and enumerate security misconfigurations. By leveraging direct syscall execution, memory analysis, and DLL hijacking detection, ExploitForge helps professionals assess security defenses and develop exploitation strategies while maintaining a low forensic footprint.
 
+# Note
+Tested and works in windows 10, 11, Server 2019 
+(ZeroProbe-V1.0-pwsh7.ps1) is compatible with PowerShell Version  7
+(ZeroProbe-V1.0-All-PWH.ps1) is compatible with other versions of powershell
+
 # Features
 
 # 1- Kernel Exploit Detection with CVE Mapping
@@ -72,9 +77,6 @@ Scans for syscall hooks in ntdll.dll to detect potential tampering by security s
 # 16- Generate ReverseShell
 
 Generates and executes a reverse shell in memory using C#. It establishes a connection to an attacker's machine, allowing remote command execution. The results help test remote access techniques and assess security defenses.
-
-# Note
-Tested and works in windows 10, 11, Server 2019 - PowerShell Version  7
 
 # License
 This project is released under the MIT License - see the https://github.com/yehia-mamdouh/ZeroProbe/blob/main/LICENSE file for more details.
