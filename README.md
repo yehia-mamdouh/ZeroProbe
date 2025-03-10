@@ -9,7 +9,7 @@ ZeroProbe is an exploit development and enumeration framework designed for secur
 # Note
 Tested and works in windows 10, 11, Server 2019 
 (ZeroProbe-V1.0-pwsh7.ps1) is compatible with PowerShell Version  7
-(ZeroProbe-V1.0-All-PWH.ps1) is compatible with other versions of powershell
+(ZeroProbe-V1.0-All-PWH.ps1) is compatible with all other versions of powershell
 
 # Features
 
